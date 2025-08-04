@@ -2,6 +2,13 @@
 name = "dstu8845"
 version = "1.0.0"
 edition = "2024"
+authors = ["Oleksandr Yermakov <olexander.yermakov@gmail.com"]
+description = "Rust implementation of Strumok (DSTU 8845:2019)"
+categories = ["cryptography"]
+keywords = ["cryptography", "stream-cipher", "ukrainian"]
+license = "MIT"
+license-file = "LICENSE.md"
+repository = "https://github.com/alexyer/dstu8845"
 
 [dependencies]
 cipher = "0.5.0-rc.0"
